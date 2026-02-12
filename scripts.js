@@ -3,7 +3,7 @@ const jokeBtn = document.getElementById("JokeBtn");
 
 async function getJoke() {
   try {
-    const response = await fetch("https://api.chucknorris.io/jokes/random");
+    const response = await fetch("https://official-joke-api.appspot.com/random_joke");
     const data = await response.json();
     jokeBox.textContent = data.value; 
 }
