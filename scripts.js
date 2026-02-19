@@ -9,12 +9,10 @@ async function getJoke()
     let jokeData = await response.json();
     jokeText.textContent = jokeData.setup;
     savedPunchline = jokeData.punchline;
-    showPunchlineButton.disabled = false;
 }
 function showPunchline() 
 {
     jokeText.textContent = jokeText.textContent + "\n\n" + savedPunchline;
-    showPunchlineButton.disabled = true;
 }
 getJokeButton.addEventListener("click", getJoke);
 showPunchlineButton.addEventListener("click", showPunchline);
