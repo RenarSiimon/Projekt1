@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #928dab;
+  background: green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,13 +11,13 @@ body {
 .container {
   background: white;
   padding: 30px;
-  border-radius: 12px;
+  border-radius: 8px;
   width: 400px;
   text-align: center;
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .JokeBox {
@@ -32,7 +32,7 @@ h1 {
 button {
   padding: 10px 20px;
   border: none;
-  background: #1f1c2c;
+  background: black;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -41,5 +41,5 @@ button {
 }
 
 button:hover {
-  background: #3a345d;
+  background: green;
 }
